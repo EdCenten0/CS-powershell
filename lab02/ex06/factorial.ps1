@@ -3,6 +3,12 @@
 #$args)
 
 
+# You can also use param([int]$n) to define a parameter as a variable
+
+# Or maybe read from the console with : $n = Read-Host "Enter your number:"  
+
+#If we want to make a parameter mandatory we can do it this way: param([Parameter(Mandatory=$true)][int]$n)
+
 $fact=1
 
 #Checking if it is possitive
