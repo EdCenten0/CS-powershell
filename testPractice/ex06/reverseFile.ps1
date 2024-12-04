@@ -1,0 +1,2 @@
+﻿#Write a script which writes out a file (filename as parameter) content reverse. First line
+#first word to last line last word…param($file)$content = Get-Content $file[array]::Reverse($content)foreach($l in $content){   $array = $l -split " "   [array]::Reverse($array)   Write-Host $array }

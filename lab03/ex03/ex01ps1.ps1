@@ -1,0 +1,1 @@
+﻿#) Create a PowerShell script which decide whether a number is a prime number or not!$n=$args[0]$divisors = 0for($i = 1; $i -le $n; $i++){if($n % $i -eq 0){$divisors++}}if($divisors -eq 2){Write-Host "It's prime"}else{Write-Host "It's not prime"}
